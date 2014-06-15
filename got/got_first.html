@@ -5,19 +5,7 @@
             Game of Thrones IC
         </title>
         
-        <script>
-            function name_validation(nome)
-            {
-                var res;
-                
-                if ()
-                {
-                    document.getElementById("name_output").innerHTML = res;
-                }
-            }
-        </script>
-        
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="GOT.js"></script>
         
         <link rel="stylesheet" type="text/css" href="GOT.css"/>
         
@@ -31,22 +19,30 @@
         
         <p>
             Seja Bem-Vindo ao GOT-IC !!<br>
-            Nosso Site é dedicado a série Game of Thrones, primeira temporada.<br><br><br>
+            Nosso Site é dedicado a série Game of Thrones, primeira temporada<br>
+            Escolha o episodio do qual você deseja saber mais informações:<br><br>
         </p>
             
-        <form>
-            Nome:<input type="text" name="nome"><p id="name_vld"></p><br><br>
+        <form name="form01" method="post">
+            Nome:<input type="text" name="nome"><small id="name_vld"></small><br><br>
             Sexo<br>
-            Masculino:<input type="radio" name="sexo" value="1"><br>
-            Feminino:<input type="radio" name="sexo" value="0"><br><br>
-            Idade:<input id="idade" type="text" name="idade"><br><br>
-            <input id="submit" type="submit" value="ENTRAR">
+            Masculino:<input type="radio" name="sexo" value="1" checked><br>
+            Feminino:<input type="radio" name="sexo" value="2"><br><br>
+            Idade:<select name="idade">
+                <option value="0">13-</option>
+                <option value="0" selected>14</option>
+                <option value="0">15</option>
+                <option value="1">16</option>
+                <option value="1">17</option>
+                <option value="1">18+</option>
+            </select><small id=age_vld></small><br>
+            <input id="submit" type="button" value="ENTRAR" onclick="validateForm()">
         </form>
         
         <div id="footer">
             <p>
                 IC - CDC 2014.1<br>
-                Bschron - Fus Ro Dah - Jezuz
+                Bschron - Fus Ro Dah - Nord
             </p>
         </div>
         
