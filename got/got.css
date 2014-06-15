@@ -8,6 +8,7 @@ h1
     font-family: sans-serif;
     color:white;
     text-align: center;
+    font-size: 30px;
 }
 
 h2
@@ -15,7 +16,7 @@ h2
     font-family: sans-serif;
     color: :#666666;
     text-align: center;
-    font-size: 20px;
+    font-size: 20px; 
 }
 
 p
@@ -23,11 +24,12 @@ p
     font-family: sans-serif;
     text-align: center;
     font-size: 20px;
+    color: #c4c4c4;
 }
 
 #episodios
 {
-    font-family: serif;
+    font-family: sans-serif;
     text-align: left;
     font-size: 16px;
     text-decoration-color: #adacac;
@@ -37,7 +39,7 @@ p
 
 #enumeracao
 {
-    font-family: serif;
+    font-family: sans-serif;
     text-align: left;
     font-size: 16px;
     text-decoration-color: #adacac;
@@ -67,12 +69,13 @@ a
 
 #footer p
 {
-    text-decoration-color: #ffffff;
+    background-color: black;
+    color: #c9c7c7;
 }
 
 #imagem_do_topo
 {
-    background-color: black;
+    width: 100%;
 }
 
 form
@@ -90,4 +93,34 @@ form
 #submit
 {
     margin-left: 10%;
+}
+
+#name_vld
+{
+    color: rgb(19, 156, 233);
+    font-family: sans-serif;
+}
+
+#age_vld
+{
+    color: rgb(19, 156, 233);
+    font-family: sans-serif;
+}
+
+#episode_h2
+{
+    margin-left: -365px;
+    margin-top: 5%;
+}
+#episode_h1
+{
+    margin-left: -280px;
+    margin-top: -20;
+}
+
+#episode_text
+{
+    align-content: center;
+    text-align: center;
+    margin-top: -20;
 }
